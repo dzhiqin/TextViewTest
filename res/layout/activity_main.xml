@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textview01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+      	android:autoLink="all"
+      	android:background="@drawable/white"
+      	android:textColor="#8b1a1a"
+      	android:textSize="20sp"
+        android:text="@string/hello_world" />
+    
+    <TextView
+        android:id="@+id/textview02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:autoLink="all"
+      	android:background="@drawable/white"
+      	android:textColor="#8b1a1a"
+      	android:textSize="20sp"
+      	android:layout_gravity="center"
+        android:text="@string/second_text" />
+    
+    <Button 
+        android:id="@+id/alert_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_string"/>
+    
+    <RelativeLayout 
+        android:background="@drawable/cornsilk"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+        
+    	<TextView 
+    	    android:background="@drawable/grey"
+    	    android:id="@+id/methodTextView"
+    	    android:textSize="35sp"
+    	    android:layout_width="50dp"
+    	    android:layout_height="match_parent"
+    	    android:gravity="center"
+    	    android:layout_centerInParent="true"
+    	    android:text="+"/>
+    	
+    	<EditText 
+    	    android:background="@drawable/lightyellow"
+    	    android:id="@+id/value1EditText"
+    	    android:inputType="number"
+    	    android:gravity="end"
+    	    android:textSize="35sp"
+    	    android:layout_width="0dp"
+    	    android:layout_height="match_parent"
+    	    android:layout_alignParentLeft="true"
+    	    android:layout_alignParentStart="true"
+    	    android:layout_toLeftOf="@id/methodTextView"
+    	    android:layout_toStartOf="@id/methodTextView"/>
+    	
+    	<EditText 
+    	    android:background="#a0522d"
+    	    android:id="@+id/value2EditText"
+    	    android:inputType="number"
+    	    android:gravity="start"
+    	    android:textSize="35sp"
+    	    android:layout_width="0dp"
+    	    android:layout_height="match_parent"
+    	    
+    	    android:layout_toRightOf="@id/methodTextView"
+    	    android:layout_toEndOf="@id/methodTextView"
+    	    android:layout_alignParentRight="true"
+    	    android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+        <TextView 
+            android:textSize="35sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="="/>
+        <TextView
+            android:id="@+id/result"
+            android:textSize="35sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+    <LinearLayout 
+        android:background="#FFC1C1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        
+        <Button 
+            android:id="@+id/add"
+            android:textSize="35sp"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"/>
+        <Button 
+            android:id="@+id/minus"
+            android:textSize="35sp"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minus"/>
+        
+        <Button 
+            android:id="@+id/multiply"
+            android:textSize="35sp"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multiply"/>
+        <Button 
+            android:id="@+id/division"
+            android:textSize="35sp"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/division"/>
+        <Button 
+            android:id="@+id/enter"
+            android:textSize="35sp"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter"/>
+        
+        
+    </LinearLayout>
+</LinearLayout>

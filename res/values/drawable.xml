@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="gray">#aaa</drawable>
+    <drawable name="grey">#BEBEBE</drawable>
+    <drawable name="cornsilk">#FFF8DC</drawable>
+    <drawable name="lightyellow">#EEEED1</drawable>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TextViewTest</string>
+    <string name="hello_world">第一行显示的数据</string>
+    <string name="second_text">第二行显示的数据</string>
+    <string name="action_settings">Settings</string>
+    <string name="alert_string">AlertDialog</string>
+    <string name="add">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="division">/</string>
+    <string name="enter">ok</string>
+
+</resources>
